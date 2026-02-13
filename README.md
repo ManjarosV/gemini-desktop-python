@@ -20,7 +20,7 @@ Uma interface desktop minimalista para o Google Gemini, construída com Python e
 
 2. Instale as dependências:
 
-```bash
+
 pip install -r requirements.txt
 ```
 
