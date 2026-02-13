@@ -26,7 +26,7 @@ Ao abrir o aplicativo pela primeira vez, você precisará configurar sua API Key
 | :--- | :--- | :--- |
 | **1** | Obtenha uma chave de API gratuita | [Google AI Studio](https://aistudio.google.com/app/apikey) |
 | **2** | Cole a chave na tela de Setup do App | - |
-| **3** | Escolha seu modelo (ex: `gemini-2.0-flash`) | - |
+| **3** | Escolha seu modelo (ex: `gemini-flash-latest`) | - |
 
 ---
 
