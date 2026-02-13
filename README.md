@@ -49,7 +49,7 @@ Se preferir rodar o código fonte no seu Arch Linux ou Windows:
    `python nebula_gemini.py`
 
 
-############################### ** Versão dos DEVS ** ###############################
+ **Versão dos DEVS** 
 
 ```
 #Gemini Desktop UI 
