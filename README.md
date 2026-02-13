@@ -47,7 +47,27 @@ Se preferir rodar o código fonte no seu **Arch Linux** ou Windows:
    ```bash
    git clone [https://github.com/ManjarosV/gemini-desktop-python.git](https://github.com/ManjarosV/gemini-desktop-python.git)
    cd gemini-desktop-python
-```
 
+2. **Instale as dependências:**
+    ```bash
+    pip install -r requirements.txt
+   # Ou manualmente: pip install PyQt6 google-genai
 
-2. **Clone o repositório:**
+3. **Execute o script:**
+     ```bash
+     python nebula_gemini.py
+
+**🏗️ Notas Técnicas (Versão dos DEVS)
+
+Status atual do desenvolvimento e detalhes internos:
+
+   - Auto-Rename: Renomeia sessões baseado no contexto da primeira pergunta. (Status: Experimental/Inoperante em certas condições).
+
+   - Design Moderno: Janela arredondada, sem bordas e com animações de pulsação. (Status: Necessita de correções visuais básicas em alguns sistemas).
+
+   - Performance: O desempenho de resposta depende inteiramente do modelo selecionado pelo usuário.
+
+   - Gerenciamento de Chats: Sistema de deleção via sidebar. (Status: Testes de estabilidade pendentes).
+
+Criado por ManjarosV :D**
+
