@@ -57,8 +57,8 @@ Se preferir rodar o código fonte no seu **Arch Linux** ou Windows:
      ```bash
      python nebula_gemini.py
 
-**🏗️ Notas Técnicas (Versão dos DEVS)
-
+**🏗️ Notas Técnicas (Versão dos DEVS)**
+```bash
 Status atual do desenvolvimento e detalhes internos:
 
    - Auto-Rename: Renomeia sessões baseado no contexto da primeira pergunta. (Status: Experimental/Inoperante em certas condições).
@@ -68,6 +68,7 @@ Status atual do desenvolvimento e detalhes internos:
    - Performance: O desempenho de resposta depende inteiramente do modelo selecionado pelo usuário.
 
    - Gerenciamento de Chats: Sistema de deleção via sidebar. (Status: Testes de estabilidade pendentes).
+```
 
-Criado por ManjarosV :D**
+**Criado por ManjarosV :D**
 
