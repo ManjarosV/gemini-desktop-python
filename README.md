@@ -1,5 +1,5 @@
 
-``` Bash
+```
 #Gemini Desktop UI 
 
 Uma interface desktop minimalista para o Google Gemini, construída com Python e PyQt6. Inspirada no tema Catppuccin.
