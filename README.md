@@ -10,10 +10,13 @@ construída com Python e PyQt6. Inspirada na estética Catppuccin Mocha.
 ![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey?style=flat-square)
 ![License](https://img.shields.io/badge/License-MIT-purple?style=flat-square)
 
-<!-- Adicione um screenshot aqui -->
-<!-- ![Screenshot](assets/screenshot.png) -->
 <img width="1098" height="748" alt="image" src="https://github.com/user-attachments/assets/29175c99-3515-4630-9449-9cf284480dae" />
 
+### 🎬 Demo
+
+
+<!-- ![Demo](assets/demo.gif) --> ![wp8986311-dark-purple-4k-wallpapers](https://github.com/user-attachments/assets/76fe96e4-f772-4c83-937d-24a4609e4d1c)
+> 📽️ *GIF de demonstração...*
 
 </div>
 
