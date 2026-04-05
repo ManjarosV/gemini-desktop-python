@@ -14,8 +14,8 @@ construída com Python e PyQt6. Inspirada na estética Catppuccin Mocha.
 
 ### 🎬 Demo
 
-
-<!-- ![Demo](assets/demo.gif) --> ![wp8986311-dark-purple-4k-wallpapers](https://github.com/user-attachments/assets/76fe96e4-f772-4c83-937d-24a4609e4d1c)
+<!-- ![Demo](assets/demo.gif) --> 
+![wp8986311-dark-purple-4k-wallpapers](https://github.com/user-attachments/assets/76fe96e4-f772-4c83-937d-24a4609e4d1c)
 > 📽️ *GIF de demonstração...*
 
 </div>
