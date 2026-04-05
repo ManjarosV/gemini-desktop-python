@@ -12,6 +12,8 @@ construída com Python e PyQt6. Inspirada na estética Catppuccin Mocha.
 
 <!-- Adicione um screenshot aqui -->
 <!-- ![Screenshot](assets/screenshot.png) -->
+<img width="1098" height="748" alt="image" src="https://github.com/user-attachments/assets/29175c99-3515-4630-9449-9cf284480dae" />
+
 
 </div>
 
