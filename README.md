@@ -2,7 +2,7 @@
 
 # 🌌 Nebula Gemini Desktop
 
-Uma interface desktop moderna e minimalista para o Google Gemini AI,
+Uma interface desktop moderna e minimalista para o OpenRouter,
 construída com Python e PyQt6. Inspirada na estética Catppuccin Mocha.
 
 ![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
