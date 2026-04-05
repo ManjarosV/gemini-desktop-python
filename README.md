@@ -68,7 +68,4 @@ Status atual do desenvolvimento e detalhes internos:
    - Performance: O desempenho de resposta depende inteiramente do modelo selecionado pelo usuário.
 
    - Gerenciamento de Chats: Sistema de deleção via sidebar. (Status: Testes de estabilidade pendentes).
-```
-
-**Criado por ManjarosV :D**
-
+`
