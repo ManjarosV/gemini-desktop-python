@@ -1,71 +1,68 @@
+<div align="center">
+
 # 🌌 Nebula Gemini Desktop
 
-Uma interface desktop moderna e minimalista para interagir com o Google Gemini AI, construída com Python e PyQt6. Inspirada na estética **Catppuccin Mocha**.
+Uma interface desktop moderna e minimalista para o Google Gemini AI,
+construída com Python e PyQt6. Inspirada na estética Catppuccin Mocha.
 
-![Platform](https://img.shields.io/badge/platform-Windows-blue)
-![Python](https://img.shields.io/badge/Python-3.11+-yellow)
-![License](https://img.shields.io/badge/License-MIT-green)
+![Python](https://img.shields.io/badge/Python-3.10+-blue?style=flat-square&logo=python)
+![PyQt6](https://img.shields.io/badge/PyQt6-6.x-green?style=flat-square)
+![Platform](https://img.shields.io/badge/Platform-Windows%20%7C%20Linux-lightgrey?style=flat-square)
+![License](https://img.shields.io/badge/License-MIT-purple?style=flat-square)
 
----
+<!-- Adicione um screenshot aqui -->
+<!-- ![Screenshot](assets/screenshot.png) -->
 
-## 📥 Download (Windows x64)
-
-Para utilizar o Nebula Gemini sem precisar instalar o Python, baixe o executável abaixo:
-
-> ### 🚀 [**Baixar Nebula Gemini v1.0**](https://github.com/ManjarosV/gemini-desktop-python/raw/main/dist/NebulaGemini.exe)
-> *Versão compilada para Windows 10/11 x64.*
-
----
-
-## 🛠️ Como Configurar
-
-Ao abrir o aplicativo pela primeira vez, você precisará configurar sua API Key:
-
-| Passo | Ação | Link |
-| :--- | :--- | :--- |
-| **1** | Obtenha uma chave de API gratuita | [Google AI Studio](https://aistudio.google.com/app/apikey) |
-| **2** | Cole a chave na tela de Setup do App | - |
-| **3** | Escolha seu modelo (ex: `gemini-2.0-flash`) | - |
+</div>
 
 ---
 
 ## ✨ Funcionalidades
 
-* **🎨 Interface Catppuccin:** Visual moderno, escuro e minimalista.
-* **💾 Histórico Local**: Salva suas conversas em arquivos JSON de forma local na pasta do usuário.
-* **⚙️ Zero Config:** Configuração inicial rápida através da interface, sem necessidade de editar o código.
-* **🗑️ Gerenciamento de Chats**: Botão para deletar conversas individuais diretamente na barra lateral.
+- 🎨 **Interface Catppuccin Mocha** — visual escuro, moderno e minimalista
+- 💾 **Histórico local** — conversas salvas em JSON na máquina do usuário
+- ⚙️ **Setup via interface** — sem necessidade de editar código ou arquivos de config
+- 🗑️ **Gerenciamento de chats** — delete conversas individuais pela sidebar
+- 🔄 **Auto-rename de sessões** — nomeia conversas com base no contexto inicial
 
 ---
 
-## 💻 Como Rodar (Desenvolvedores)
+## 📥 Download (Windows x64)
 
-Se preferir rodar o código fonte no seu **Arch Linux** ou Windows:
+Sem precisar instalar Python:
 
+**[🚀 Releases → Nebula Gemini v1.0](../../releases)**
 
-1. **Clone o repositório:**
-   ```bash
-   git clone [https://github.com/ManjarosV/gemini-desktop-python.git](https://github.com/ManjarosV/gemini-desktop-python.git)
-   cd gemini-desktop-python
+> Compatível com Windows 10/11 x64.
 
-2. **Instale as dependências:**
-    ```bash
-    pip install -r requirements.txt
-   # Ou manualmente: pip install PyQt6 google-genai
+---
 
-3. **Execute o script:**
-     ```bash
-     python nebula_gemini.py
+## 🛠️ Configuração
 
-**🏗️ Notas Técnicas (Versão dos DEVS)**
+1. Abra o app
+2. Obtenha uma API Key gratuita em [Google AI Studio](https://aistudio.google.com)
+3. Cole a chave na tela de Setup
+4. Escolha seu modelo (ex: `gemini-2.0-flash`)
+
+---
+
+## 💻 Rodando pelo código-fonte
 ```bash
-Status atual do desenvolvimento e detalhes internos:
+# Clone o repositório
+git clone https://github.com/ManjarosV/gemini-desktop-python.git
+cd gemini-desktop-python
 
-   - Auto-Rename: Renomeia sessões baseado no contexto da primeira pergunta. (Status: Experimental/Inoperante em certas condições).
+# Instale as dependências
+pip install PyQt6 google-genai
+# ou
+pip install -r requirements.txt
 
-   - Design Moderno: Janela arredondada, sem bordas e com animações de pulsação. (Status: Necessita de correções visuais básicas em alguns sistemas).
+# Execute
+python nebula_gemini.py
+```
 
-   - Performance: O desempenho de resposta depende inteiramente do modelo selecionado pelo usuário.
+**Requisitos:** Python 3.10+ | PyQt6 | google-genai
 
-   - Gerenciamento de Chats: Sistema de deleção via sidebar. (Status: Testes de estabilidade pendentes).
-`
+---
+
+## 🗂️ Estrutura do Projeto
