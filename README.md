@@ -66,3 +66,18 @@ python nebula_gemini.py
 ---
 
 ## 🗂️ Estrutura do Projeto
+gemini-desktop-python/
+├── nebula_gemini.py     # Entrypoint principal
+├── requirements.txt
+└── README.md
+---
+
+## 📄 Licença
+
+MIT License — veja [LICENSE](LICENSE) para detalhes.
+
+---
+
+<div align="center">
+Feito por <a href="https://github.com/ManjarosV">ManjarosV</a>
+</div>
